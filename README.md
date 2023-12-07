@@ -1,1 +1,1 @@
-This repository contains lists of words that might fit a particular poetic meter, derived from the CMU Pronunciation Dictionary (https://github.com/Alexir/CMUdict/blob/master/cmudict-0.7b). The digit "1" means a stressed syllable; the digit "0" means an unstressed syllable.
+This repository contains lists of words that might fit a particular poetic meter, derived from the CMU Pronunciation Dictionary (https://github.com/Alexir/CMUdict/blob/master/cmudict-0.7b). The digit "1" denotes a primary stress; the digit "0" denotes a secondary stress or unstressed syllable.

@@ -2,7 +2,6 @@
 # at https://github.com/Alexir/CMUdict/blob/master/cmudict-0.7b).
 
 import collections
-import itertools
 import re
 import sys
 
@@ -14,18 +13,9 @@ def meters_from_stresses(stresses):
     # primary stresses.
     if not (len(stresses) <= 4 and stresses.count("1") == 1):
         return
-    # Demote secondary stresses next to primary stresses---these are generally
-    # unlikely to be acceptable metric stresses.
-    if stresses != "12":
-        stresses = re.sub("(?<=1)2|2(?=1)", "0", stresses)
-    # Filter out a handful of oddities.
-    if "22" in stresses:
-        return
-    # Resolve the secondary stresses in all possible ways.
-    for meter in itertools.product(
-        *({"0": ["0"], "1": ["1"], "2": ["0", "1"]}[c] for c in stresses)
-    ):
-        yield "".join(meter)
+    if stresses == "12":
+        yield "11"
+    yield stresses.replace("2", "0")
 
 
 def main(path_to_cmudict):

@@ -1,5 +1,7 @@
 aaai
 abdulaziz
+adhd
+adsl
 aeroperu
 almodovar
 aperitif
@@ -22,6 +24,8 @@ concessionaire
 conventioneer
 conventioneers
 counterattacked
+demodulate
+demodulates
 electioneer
 electioneers
 electrolyte
@@ -30,16 +34,24 @@ encarnacion
 entrepreneur
 entrepreneurs
 espectador
+fnma
 gobbledygook
 guadalcanal
 hapoalim
+html
+http
 hullabaloo
 idiopath
+ieee
+imagineer
 indochinese
+industrielle
+inopportune
 interconnect
 interrelate
 interviewee
 interviewees
+isbn
 kalamazoo
 laviolette
 legerdemain
@@ -66,6 +78,8 @@ nitrosomine
 nitrosomines
 novosibirsk
 observateur
+oecd
+ostpolitik
 overexcite
 overexcites
 overexpose
@@ -77,6 +91,7 @@ oversubscribe
 oversubscribed
 oversupplied
 oversupply
+realpolitik
 recitatives
 recriminate
 reengineer
@@ -90,6 +105,7 @@ sebastiane
 senegalese
 societe
 sotomayor
+sovexportfilm
 srinivasan
 superimpose
 superimposed
@@ -102,5 +118,7 @@ underinsured
 underreport
 undersubscribed
 urokinase
+usda
+ussr
 vietnamese
 villasenor
